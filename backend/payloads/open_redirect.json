@@ -1,0 +1,11 @@
+{
+  "description": "Open redirect payloads targeting internal resources",
+  "payloads": [
+    "http://localhost/flag",
+    "http://127.0.0.1/flag",
+    "//localhost/flag",
+    "file:///flag.txt",
+    "/flag",
+    "/api/flag"
+  ]
+}

