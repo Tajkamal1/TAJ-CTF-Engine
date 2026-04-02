@@ -1,5 +1,0 @@
-{
-  "description": "Type juggling and mass assignment payloads",
-  "php_magic_hashes": ["0e215962017", "0e807097", "0e291242476940776845150308577824"],
-  "mass_assign_fields": ["isAdmin", "is_admin", "role", "admin", "privilege"]
-}
